@@ -1,0 +1,914 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Download Beta Profiles</title>
+<meta name="description" content="Download latest beta profiles for iOS, iPadOS, macOS, watchOS and tvOS." />
+<meta name="robots" content="index,follow" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="canonical" href="https://betaprofiles.dev/" />
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#000" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Download Beta Profiles" />
+<meta property="og:image" content="https://betaprofiles.dev/img/og/og-21-new.jpg" />
+<meta property="og:title" content="Download Beta Profiles" />
+<meta property="og:description" content="Download latest beta profiles for iOS, iPadOS, macOS, watchOS and tvOS." />
+<meta property="og:url" content="https://betaprofiles.dev/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Download Beta Profiles" />
+<meta name="twitter:description" content="Download latest beta profiles for iOS, iPadOS, macOS, watchOS and tvOS." />
+<meta name="twitter:image" content="https://betaprofiles.dev//img/og/og-21-new.jpg" />
+<meta name="apple-mobile-web-app-title" content="Beta Profiles" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/app-icon-57.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/img/app-icon-76.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/img/app-icon-120.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/img/app-icon-152.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="/img/app-icon-167.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/app-icon-180.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="/img/app-icon-192.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="/img/app-icon-512.png" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="dns-prefetch" href="https://resources.infolinks.com" />
+<link rel="dns-prefetch" href="https://rt3069.infolinks.com" />
+<link rel="dns-prefetch" href="https://jsc.adskeeper.com" />
+<link rel="preconnect" href="https://static.criteo.net" />
+<link rel="preconnect" href="https://script.4dex.io" />
+<link rel="preconnect" href="https://adservice.google.com/" />
+<link rel="preconnect" href="https://googleads.g.doubleclick.net/" />
+<link rel="preconnect" href="https://www.googletagservices.com/" />
+<link rel="preconnect" href="https://tpc.googlesyndication.com/" />
+<link rel="preconnect" href="https://resources.infolinks.com" />
+<link rel="preload" href="/img/beta-profiles-logo.svg" as="image" />
+<link rel="preload" href="/fonts/sf-pro-display_semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/sf-pro-display_regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/sf-pro-text_regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" href="/fonts/sf-pro-text_semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<style type="text/css">
+  @font-face {font-family: 'SF Pro Display';src: url('/fonts/sf-pro-display_semibold.woff2') format('woff2');font-weight: 600;font-style: normal;font-display: swap;}@font-face {font-family: 'SF Pro Display';src: url('/fonts/sf-pro-display_regular.woff2') format('woff2');font-weight: 400;font-style: normal;font-display: swap;}@font-face {font-family: 'SF Pro Text';src: url('/fonts/sf-pro-text_semibold.woff2') format('woff2');font-weight: 600;font-style: normal;font-display: swap;}@font-face {font-family: 'SF Pro Text';src: url('/fonts/sf-pro-text_regular.woff2') format('woff2');font-weight: 400;font-style: normal;font-display: swap;}@font-face {font-family: 'SF Pro Text';src: url('/fonts/sf-pro-text_regular-italic.woff2') format('woff2');font-weight: 400;font-style: italic;font-display: swap;}:root {--gray-50: #141414;--white-09: hsla(0, 0%, 100%, 0.80);--main-color: #03A9F4;--secondary-color: #027FB7;--typo-color: #F5F5F7;--typo-body-color: #F5F5F7;--background-body: #000;--btn-secondary-color: #F5F5F7;--aside-note: #696969;--aside-note-background: #323232;--aside-note-border: #9a9a9e;--aside-important: #936d00;--aside-important-background: #2b2000;--aside-important-border: #ad8200;--font-display: "SF Pro Display", "Helvetica Neue", "Helvetica", -apple-system-font, BlinkMacSystemFont, "Arial", sans-serif;--font-text: "SF Pro Text", "Helvetica Neue", "Helvetica", -apple-system-font, BlinkMacSystemFont, "Arial", sans-serif;--font-default: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;--button-width: 138px;--button-height: 45px;--bradius-18: 18px;}html {font-family: var(--font-default) }body {font-family: var(--font-default) }h1, h2, h3, h4, h5, h6 {font-family: var(--font-default) }html.fonts-loaded {font-family: var(--font-text) }html.fonts-loaded body {font-family: var(--font-text) }html.fonts-loaded h1, html.fonts-loaded h2, html.fonts-loaded h3, html.fonts-loaded h4, html.fonts-loaded h5, html.fonts-loaded h6 {font-family: var(--font-display) }body {margin: 0;min-height: 100%;background-color: var(--background-body);color: var(--typo-body-color);line-height: 1.47059;font-weight: 400;letter-spacing: -.022em;font-family: var(--font-text) }:focus, button:focus {outline: 0 }hr {border-color: #98A2B3;}a {background-color: transparent;color: var(--main-color);cursor: pointer;text-decoration: none;-webkit-transition: .3s ease-out;-o-transition: .3s ease-out;transition: .3s ease-out }a:hover {color: var(--secondary-color);}h1, h2, h3, h4, h5, h6 {font-family: var(--font-display);}h4 {margin-top: 1.25em;margin-bottom: 0.5em;color: var(--typo-color);font-size: 1.5rem;line-height: 1.25;font-weight: 600;letter-spacing: .009em;}h3 {margin-top: 1em;margin-bottom: 0.5em;color: var(--typo-color);font-size: 1.25em;line-height: 1.25;font-weight: 600;letter-spacing: .009em;}h2 {margin-top: 1em;margin-bottom: 0.5em;color: var(--typo-color);font-size: 1.5rem;line-height: 1.25;font-weight: 600;letter-spacing: .009em;}p {margin-top: 0;margin-bottom: 1em;}.button {position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;border-radius: 8px;-webkit-box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);-webkit-transition: .2s;-o-transition: .2s;transition: .2s;color: #fff;font-weight: 500;letter-spacing: .5px;text-decoration: none;white-space: nowrap;cursor: pointer;}.disabled {pointer-events: none;cursor: not-allowed;opacity: 0.65;-webkit-box-shadow: none;box-shadow: none;}.text-primary-700 {color: var(--main-color);}.display-sm {margin-top: 0;margin-bottom: 0.5em;color: var(--typo-color);font-size: 1.5rem;line-height: 1.25;font-weight: 600;}.text-sm {margin-top: 0;font-size: .875rem;line-height: 1.5;}.background-gray-50 {background-color: var(--gray-50);}.border-radius-23 {border-radius: 23px;}.sr .typography-hero-headline, .sr .quick-select, .sr .typography-intro, .sr .hero-buttons, .sr .sr-base, .sr .sr-middle, .sr .sr-top, .sr .scroll-cards {visibility: hidden;}.navbar .navbar-toggler {border: 0;color: var(--typo-color);}.nav-link {-webkit-transition: color .2s;-o-transition: color .2s;transition: color .2s;color: #EAECF0;font-weight: 500;text-decoration: none;}.nav-link:hover {color: var(--secondary-color);}.left-col img {max-width: 100px;}.right-col-wrap h3 {font-size: 18px;margin: 0;}.text-wrap p {margin-top: 0.4em;margin-bottom: 0.3em;}.text-wrap .lighter {color: #667085;}.divider-bottom {border-bottom: 1px solid #303030;padding: 20px 0;}.divider-bottom:last-child {border: 0;}.modal-scrollable {overflow-y: initial }.modal-scrollable .modal-body{max-height: 70vh;overflow-y: auto;}.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {color: var(--main-color);font-weight: 600;}.offcanvas {background-color: #151516;-webkit-transition: -webkit-transform .2s ease;transition: -webkit-transform .2s ease;-o-transition: transform .2s ease;transition: transform .2s ease;transition: transform .2s ease, -webkit-transform .2s ease }.offcanvas.offcanvas-end {width: 320px;}.offcanvas-backdrop {background: transparent;}.offcanvas-backdrop.show {opacity: 1;background-color: hsla(0,0%,7%,.66);}.durum {position: relative;display: inline-block;width: 8px;height: 8px;border-radius: 50%;margin: 5px;}.durum.circle, .durum.circle:before {background-color: #027a48;}.durum:before {content: "";display: block;position: absolute;left: -4px;top: -4px;width: 16px;height: 16px;border-radius: 50%;animation: pulse 1.5s infinite linear;}@keyframes pulse {from {transform: scale(0);opacity: 1;}to {transform: scale(1.5);opacity: 0;}}.modal-dialog {max-width: 450px;}.modal-body {padding: 10px 25px 25px 25px }.modal-header {padding-left: 25px;}.modal-body .btns, .modal-content .btns {width: 100%;}.modal-content {background-color: #1D1D1F;border-radius: 16px;}.modal-backdrop {background-color: transparent;-webkit-transition: 0.25s ease 0s;-o-transition: 0.25s ease 0s;transition: 0.25s ease 0s;}.modal-backdrop.show {opacity: 1;background-color: hsl(0deg 0% 7% / 74%);}.modal.fade .modal-dialog {visibility: hidden;opacity: 0;-webkit-transition-delay: 0s;-o-transition-delay: 0s;transition-delay: 0s;-webkit-transition-duration: 0.35s;-o-transition-duration: 0.35s;transition-duration: 0.35s;-webkit-transition-timing-function: ease;-o-transition-timing-function: ease;transition-timing-function: ease;-webkit-transform: translateY(30px) scale(.85, .85);-ms-transform: translateY(30px) scale(.85, .85);transform: translateY(30px) scale(.85, .85);transition-delay: 0s;transition-duration: 0.35s;transition-timing-function: ease;-webkit-transition-property: opacity, visibility, -webkit-transform;transition-property: opacity, visibility, -webkit-transform;-o-transition-property: transform, opacity, visibility;transition-property: transform, opacity, visibility;transition-property: transform, opacity, visibility, -webkit-transform;}.modal.fade.show .modal-dialog {visibility: visible;opacity: 1;-webkit-transform: translateY(0) scale(1, 1);-ms-transform: translateY(0) scale(1, 1);transform: translateY(0) scale(1, 1);}.feature-icon-round {display: -webkit-box;display: -ms-flexbox;display: flex;overflow: hidden;width: 72px;height: 72px;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;border: 3px solid #fff;border-radius: 50%;background-color: #fff;-webkit-box-shadow: 0 0 0 1px #f2f4f7, 0 2px 4px -2px rgb(16 24 40 / 6%), 0 4px 8px -2px rgb(16 24 40 / 10%);box-shadow: 0 0 0 1px #f2f4f7, 0 2px 4px -2px rgb(16 24 40 / 6%), 0 4px 8px -2px rgb(16 24 40 / 10%);}.feature-icon-round.feature-icon {margin: 25px 0 14px 25px;}.feature-icon-img {width: 100%;height: 100%;border-radius: 50%;background-image: url(../img/web-icon/donate.jpg);background-position: 50% 50%;background-size: 72px;background-repeat: no-repeat;-webkit-box-shadow: inset 0 0 3px 1px rgb(16 24 40 / 5%);box-shadow: inset 0 0 3px 1px rgb(16 24 40 / 5%);}.modal-buttons {padding: 0 25px;}.feature-icon-img.warning-profiles-install {background-image: url(/img/web-icon/warning.jpg);}.feature-icon-img.icon-donate {background-image: url(/img/web-icon/donate.jpg);}.absolute {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}.parallel-section {width: 100%;}.image_wrap {display: block;width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}.artwork {z-index: 0;height: 850px;max-height: 315px;}.layer {display: flex;align-items: center;justify-content: center;width: 100%;height: 100%;}.layer img {width: auto;height: 100%;}.simple-parallax-initialized {width: 100%;height: 100%;}.hello-hero {background-image: url(../img/WWDC22/main/webp/wwdc22-dark-mobile.webp);}.no-webp .hello-hero {background-image: url(../img/WWDC22/main/wwdc22-dark-mobile.jpg);}.hello-hero {position: absolute;width: 100%;height: 608px;background-repeat: no-repeat;background-size: 400px 267px;background-position: center 197px;max-width: 1200px;}.section-hello {min-height: 528px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;-webkit-box-align: center;-ms-flex-align: center;align-items: center;margin-top: 4em;}.section-content {z-index: 999;}.typography-hero-headline {color: #0099ff;background: linear-gradient(315deg, rgb(0, 153, 255) 0%, rgb(0, 204, 255) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 40px;line-height: 1.08349;font-weight: 600;letter-spacing: -.003em;font-family: var(--font-display) }.typography-intro {font-size: 24px;line-height: 34px;font-weight: 400;letter-spacing: 0.012em;font-family: var(--font-display);}.btns {position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;padding: 12px 20px;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;border: 1px solid var(--main-color);border-radius: 8px;background-color: var(--main-color);-webkit-box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);-webkit-transition: .2s;-o-transition: .2s;transition: .2s;color: #fff;font-weight: 500;letter-spacing: .5px;text-decoration: none;white-space: nowrap;cursor: pointer;}.btns:hover {border-color: #0398DC;background-color: #0398DC;opacity: 1;color: #fff;}.btns.btn-secondary-grey {border-color: rgb(62 62 65);background-color: rgb(44 44 46 / 40%);-webkit-box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);color: var(--btn-secondary-color);}.btns.btn-secondary-grey:hover {background-color: rgb(58 58 60 / 62%);}.btns.btn-sm {padding: 10px 18px;font-size: .875em;line-height: 20px;}.btns.btn-danger {border-color: #D92D20;background-color: #D92D20;color: #fff;}.btns.btn-danger:hover {background-color: #B42318;}.quick-select a {font-size: 13px;line-height: 1.09091;font-weight: 400;letter-spacing: 0.005em;color: #86868B;text-decoration: none;}.quick-select ul {grid-column-gap: 40px;}.select-icon {width: 35px;height: 35px;background-size: 100%;background-repeat: no-repeat;background-position: center }.select-icon.ios {background-image: url(/img/svg/ios.svg) }.select-icon.ipados {background-image: url(/img/svg/ipados.svg) }.select-icon.watchos {background-image: url(/img/svg/watchos.svg) }.select-icon.tvos {background-image: url(/img/svg/tvos.svg) }.select-icon.macos {background-image: url(/img/svg/macos.svg) }.select-icon.block {background-image: url(/img/svg/tvos.svg) }.section-profiles {padding-top: 4em;padding-bottom: 4em;}.choose-beta {border-radius: 5000px;background-color: #151516;width: calc(var(--button-width)*2);height: var(--button-height);border: 1px solid rgb(57 57 60 / 51%) }.choose-beta .nav-item {-webkit-box-flex: 1;-ms-flex: 1 0 0px;flex: 1 0 0;height: 100%;font-size: 17px;line-height: 1.2353641176;font-weight: 600;letter-spacing: -0.022em;}.choose-beta .nav-link {color: #86868b;}.choose-beta .nav-link:hover {color: #fff;}.choose-beta .nav-link.active, .choose-beta .show>.nav-link {background-color: #2e2e2f;border-radius: 980px;width: var(--button-width);height: var(--button-height);-webkit-transition: background-color .3s ease-in-out;-o-transition: background-color .3s ease-in-out;transition: background-color .3s ease-in-out;}.developer-headline {color: rgb(255, 124, 0);-webkit-text-fill-color: transparent;text-fill-color: transparent;-webkit-background-clip: text;background-clip: text;background-image: -o-linear-gradient(340.4deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);background-image: linear-gradient(109.6deg, rgb(255, 194, 48) 11.2%, rgb(255, 124, 0) 100.2%);}.public-headline {color: rgb(255, 124, 0);-webkit-text-fill-color: transparent;text-fill-color: transparent;-webkit-background-clip: text;background-clip: text;background-image: -o-linear-gradient(359.6deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);background-image: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);}.tab-pane {-webkit-animation: slide-down .5s ease-out;animation: slide-down .5s ease-out;}@-webkit-keyframes slide-down {0% {opacity: 0;-webkit-transform: translateY(100px);transform: translateY(100px);}100% {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}}@keyframes slide-down {0% {opacity: 0;-webkit-transform: translateY(100px);transform: translateY(100px);}100% {opacity: 1;-webkit-transform: translateY(0);transform: translateY(0);}}#seclect-dl.form-select {font-family: var(--font-display);font-size: 28px;line-height: 1.21053;font-weight: 600;letter-spacing: .012em;width: -webkit-fit-content;width: -moz-fit-content;width: fit-content;border: 0;padding-left: 0;color: var(--typo-color);background-color: var(--background-body);background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23F5F5F7' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") }.form-select:focus {-webkit-box-shadow: none;box-shadow: none }.seclect-dl-subsection {max-width: 100%;}.profile-card {background-color: #151516;color: #e1e3eb;border: 1px solid rgb(57 57 60 / 51%);border-radius: 23px;transition-property: transform, transition-delay, filter, box-shadow, -webkit-transform, -webkit-transition-delay, -o-transition-delay, -webkit-filter, -webkit-box-shadow;-webkit-transition: .6s cubic-bezier(.165, .84, .44, 1);-o-transition: .6s cubic-bezier(.165, .84, .44, 1);transition: .6s cubic-bezier(.165, .84, .44, 1);}.profile-card h3 {color: #fff;}.image-card-wrapper .image-card {width: 60px;height: 60px;background-size: 60px 60px;background-repeat: no-repeat;position: relative;left: 50%;margin-left: -30px;}.image-card.lazy-background.visible {background-image: url(/img/svg/beta-profiles-logo-white.svg);}.ios figure.image-card.lazy-background.visible {background-image: url(/img/svg/ios_white.svg);}.ipados figure.image-card.lazy-background.visible {background-image: url(/img/svg/ipados_white.svg);}.watchos figure.image-card.lazy-background.visible {background-image: url(/img/svg/watchos_white.svg);}.macos figure.image-card.lazy-background.visible {background-image: url(/img/svg/macos_white.svg);}.tvos figure.image-card.lazy-background.visible {background-image: url(/img/svg/tvos_white.svg);}.homepod figure.image-card.lazy-background.visible {background-image: url(/img/svg/audioos_white.svg);}.profile-version {border: 1px solid #515151;font-size: 13px !important;}.version {background-color: rgb(81 81 81 / 42%) }.profile-card p {max-width: 75%;color: #e1e3eb;}.profile-button {grid-column-gap: 12px;}.profile-btn-dl {font-size: 16px;line-height: 1.17648;font-weight: 400;line-height: 0;background-color: #0071e3;color: #fff;padding-left: 16px;padding-right: 16px;padding-top: 11px;padding-bottom: 11px;}.profile-btn-dl:hover {background-color: #0071e3;color: #fff;}.profile-btn-dl.ipsw {background-color: rgb(81 81 81 / 42%);color: var(--btn-secondary-color) }.profile-btn-dl:hover, .profile-btn-dl.ipsw:hover {-webkit-filter: brightness(1.05) contrast(1.05);filter: brightness(1.05) contrast(1.05) }.linksmart {-webkit-transition: .4s cubic-bezier(.2, .8, .2, 1.2);-o-transition: .4s cubic-bezier(.2, .8, .2, 1.2);transition: .4s cubic-bezier(.2, .8, .2, 1.2) }.linksmart:hover {-webkit-transform: scale(1.02);-ms-transform: scale(1.02);transform: scale(1.02) }.linksmart:active {-webkit-transform: scale(.98);-ms-transform: scale(.98);transform: scale(.98);opacity: .8 }.image-device {background-size: cover;width: 390px;height: 293px;left: 50%;margin-left: -195px;margin-bottom: 0;background-repeat: no-repeat;position: relative;background-position-x: center;}.image-device, .image-card-wrapper .image-card {opacity: 0;-webkit-transition: opacity 300ms ease-in-out;-o-transition: opacity 300ms ease-in-out;transition: opacity 300ms ease-in-out;}.lazy-background.visible.image-device, .lazy-background.visible.image-card {opacity: 1;}.lazy-background {background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");}.no-webp .lazy-background {background-image: url("data:image/webp;base64,UklGRkAAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAIAAAAAAFZQOCAYAAAAMAEAnQEqAQABAAFAJiWkAANwAP79NmgA");}.ios .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-14-opacity-color.webp);}.no-webp .ios .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-14-opacity-color.png);}.ios-15 .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-13-opacity.webp);}.no-webp .ios-15 .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-13-opacity.png);}.ipados .lazy-background.visible.image-device {background-image: url(../img/devices/ipad/ipad-opacity-color.webp);}.no-webp .ipados .lazy-background.visible.image-device {background-image: url(../img/devices/ipad/ipad-opacity-color.png);}.watchos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-watch/apple-watch-opacity-color.webp);}.no-webp .watchos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-watch/apple-watch-opacity-color.png);}.macos .lazy-background.visible.image-device {background-image: url(../img/devices/mac/imac-opacity-color.webp);}.no-webp .macos .lazy-background.visible.image-device {background-image: url(../img/devices/mac/imac-opacity-color.png);}.tvos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-tv/apple-tv-opacity-color.webp);}.no-webp .tvos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-tv/apple-tv-opacity-color.png);}.homepod .lazy-background.visible.image-device {background-image: url(../img/devices/homepod/homepod-opacity-color.webp);}.no-webp .homepod .lazy-background.visible.image-device {background-image: url(../img/devices/homepod/homepod-opacity-color.png);}.airpods .lazy-background.visible.image-device {background-image: url(../img/devices/airpods/airpods-pro-opacity-color.webp);}.no-webp .airpods .lazy-background.visible.image-device {background-image: url(../img/devices/airpods/airpods-pro-opacity-color.png);}.block-ota .lazy-background.visible.image-device {background-image: url(../img/devices/betaprofiles-logo-card-color.webp);}.no-webp .block-ota .lazy-background.visible.image-device {background-image: url(../img/devices/betaprofiles-logo-card-color.png);}.xcode-14 .lazy-background.visible.image-device {background-image: url(../img/developer-tools/xcode-opacity.webp);}.no-webp .xcode-14 .lazy-background.visible.image-device {background-image: url(../img/developer-tools/xcode-opacity.png);}.safari .lazy-background.visible.image-device {background-image: url(../img/developer-tools/safari-opacity.webp);}.no-webp .safari .lazy-background.visible.image-device {background-image: url(../img/developer-tools/safari-opacity.png);}.profile-card.ios-16 {background-image: radial-gradient(circle 35vh at 50% 110%, #9c7924, #0000);background-repeat: no-repeat;}.profile-card.ios-16 h3 {color: #c28011;background: linear-gradient(132deg,#efc856 10%,#c28011 70%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card strong {color: #fff;}.profile-card.ipados-16 {background-image: radial-gradient(circle 35vh at 50% 110%, #037ecb, #0000);background-repeat: no-repeat;}.profile-card.ipados-16 h3 {color: #0297f2;background: linear-gradient(132deg,#55c5f8 0%,#0297f2 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card.watchos-9 {background-image: radial-gradient(circle 35vh at 50% 110%, #3e7e18, #0000);background-repeat: no-repeat;}.profile-card.watchos-9 h3 {color: #356e14;background: linear-gradient(132deg,#87d449 0%,#356e14 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card.macos-13 {background-image: radial-gradient(circle 35vh at 50% 110%, #b93087, #0000);background-repeat: no-repeat;}.profile-card.macos-13 h3 {color: #b93087;background: linear-gradient(132deg,#f3a2cc 0%,#b93087 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card.tvos-16 {background-image: radial-gradient(circle 35vh at 50% 110%, #9F44D3, #0000);background-repeat: no-repeat;}.profile-card.tvos-16 h3 {color: #9F44D3;background: linear-gradient(132deg,#E2B0FF 0%,#9F44D3 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card.homepod-16, .profile-card.airpods-pro {background-image: radial-gradient(circle 35vh at 50% 110%, #e82e41, #0000);background-repeat: no-repeat;}.profile-card.homepod-16 h3, .profile-card.airpods-pro h3 {color: #e82e41;background: linear-gradient(132deg,#eb76b2 0%,#e82e41 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.profile-card.xcode-14, .profile-card.safari-16 {background: -webkit-gradient(linear,left bottom, left top,from(#1761df),to(#1bb7ef));background: -o-linear-gradient(bottom,#1761df 0%,#1bb7ef 100%);background: linear-gradient(to top,#1761df 0%,#1bb7ef 100%) }.xcode-14 strong, .safari-16 strong {color: #1a96e8;}.profile-card.ios-15 {background: -o-radial-gradient(5% 5%,ellipse,#fb6200,rgb(251 98 0/0%) 75%),-o-radial-gradient(95% 5%,ellipse,#ffb800 0%,#ffb80000 75%),-o-radial-gradient(95% 95%,ellipse,#2a3b4f 0%,rgb(42 59 79/0%) 75%),-o-radial-gradient(5% 95%,ellipse,#76a8d5 0%,#76a8d500 75%);background: radial-gradient(ellipse at 5% 5%,#fb6200,rgb(251 98 0/0%) 75%),radial-gradient(ellipse at 95% 5%,#ffb800 0%,#ffb80000 75%),radial-gradient(ellipse at 95% 95%,#2a3b4f 0%,rgb(42 59 79/0%) 75%),radial-gradient(ellipse at 5% 95%,#76a8d5 0%,#76a8d500 75%);border: 0 none}.ios-15 strong {color: #e4580f;}.ios-15 .version {background-color: var(--white-09);}.ios-15 .profile-version {border: 1px solid hsla(0, 0%, 100%, .8);}.profile-card.ipados-15 {background: -webkit-gradient(linear,left bottom, right top,from(#1F2D3D),to(#75A3CF));background: -o-linear-gradient(bottom left,#1F2D3D,#75A3CF);background: linear-gradient(to top right,#1F2D3D,#75A3CF);}.ipados-15 strong {color: #4c5b6d;}.profile-card.watchos-8 {background: -o-linear-gradient(115deg,#06686e 5%,#00c2a7 50%,#4ff2e9 100%);background: linear-gradient(-25deg,#06686e 5%,#00c2a7 50%,#4ff2e9 100%);}.watchos-8 strong {color: #30b69d;}.profile-card.macos-12 {background: -o-linear-gradient(115deg,#531da8 5%,#c246ce 50%,#ffabd6 100%);background: linear-gradient(-25deg,#531da8 5%,#c246ce 50%,#ffabd6 100%);}.macos-12 strong {color: #cb56cf;}.profile-card.tvos-15 {background: -webkit-gradient(linear,left top, right bottom,from(#ffae1b),to(#cc0000));background: -o-linear-gradient(top left,#ffae1b,#cc0000);background: linear-gradient(to bottom right,#ffae1b,#cc0000);}.tvos-15 strong {color: #ef7c4f;}.profile-card.block-ota {background-image: radial-gradient(circle 35vh at 50% 110%, #cc34c0, #0000);background-repeat: no-repeat;}.profile-card.block-ota h3 {color: #8b19b4;background: linear-gradient(132deg,#cc34c0 0%,#8b19b4 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.public-beta {background-color: #1D1D1F;color: var(--typo-color);-webkit-box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);}.public-beta h3 {color: var(--typo-color);}.public-beta .profile-version {background-color: rgb(28,28,30);border-color: rgb(72,72,74);}.public-beta .version {background-color: rgb(58,58,60);}.public-ios .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-ios-16.webp);}.no-webp .public-ios .lazy-background.visible.image-device {background-image: url(../img/devices/iphone/iphone-ios-16.png);}.public-ipados .lazy-background.visible.image-device {background-image: url(../img/devices/ipad/ipad-pro-ipados-16.webp);}.no-webp .public-ipados .lazy-background.visible.image-device {background-image: url(../img/devices/ipad/ipad-pro-ipados-16.png);}.public-watchos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-watch/apple-watch-watchos-9.webp);}.no-webp .public-watchos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-watch/apple-watch-watchos-9.png);}.public-macos .lazy-background.visible.image-device {background-image: url(../img/devices/mac/imac-macos-13.webp);}.no-webp .public-macos .lazy-background.visible.image-device {background-image: url(../img/devices/mac/imac-macos-13.png);}.public-tvos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-tv/apple-tv-4k.webp);}.no-webp .public-tvos .lazy-background.visible.image-device {background-image: url(../img/devices/apple-tv/apple-tv-4k.png);}.public-homepod .lazy-background.visible.image-device {background-image: url(../img/devices/homepod/homepod-mini.webp);}.no-webp .public-homepod .lazy-background.visible.image-device {background-image: url(../img/devices/homepod/homepod-mini.png);}.public-ios .lazy-background.visible.image-card {background-image: url(../img/os-logo/ios-16-logo.webp);}.no-webp .public-ios .lazy-background.visible.image-card {background-image: url(../img/os-logo/ios-16-logo.png);}.public-ipados .lazy-background.visible.image-card {background-image: url(../img/os-logo/ipados-16-logo.webp);}.no-webp .public-ipados .lazy-background.visible.image-card {background-image: url(../img/os-logo/ipados-16-logo.png);}.public-watchos .lazy-background.visible.image-card {background-image: url(../img/os-logo/watchos-9-logo.webp);}.no-webp .public-watchos .lazy-background.visible.image-card {background-image: url(../img/os-logo/watchos-9-logo.png);}.public-macos .lazy-background.visible.image-card {background-image: url(../img/os-logo/macos-13-logo.webp);}.no-webp .public-macos .lazy-background.visible.image-card {background-image: url(../img/os-logo/macos-13-logo.png);}.public-tvos .lazy-background.visible.image-card {background-image: url(../img/os-logo/tvos-16-logo.webp);}.no-webp .public-tvos .lazy-background.visible.image-card {background-image: url(../img/os-logo/tvos-16-logo.png);}.public-homepod .lazy-background.visible.image-card {background-image: url(../img/os-logo/audioos-16-logo.webp);}.no-webp .public-homepod .lazy-background.visible.image-card {background-image: url(../img/os-logo/audioos-16-logo.png);}.donate-content {padding-top: 43px;}section.donate {margin: 30px 0;}.donate-right h2 {font-size: 32px;line-height: 1.0834933333;font-weight: 600;letter-spacing: -0.003em;}.donate-inner {width: 381px;height: 318px;padding-top: 65px;position: relative;margin-left: auto;margin-right: auto;}.donate-inner picture {height: -webkit-fit-content;height: -moz-fit-content;height: fit-content;line-height: 0;display: initial;}.profile-card-stack {position: absolute;top: 0;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);}.donate-os-logo {z-index: 1;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);position: absolute;left: 50%;top: 352px;}.profile-card-front {display: block;position: relative;overflow: hidden;border-radius: 5.5%;width: 100%;height: 100%;will-change: transform,opacity;}@media only screen and (max-width: 734px) {.donate-inner {width: 247px;left: auto;}}@media only screen and (max-width: 1068px) {.donate-inner {width: 241px;padding-top: 44px;}.donate-os-logo {top: 70px;}}.card .card-image {padding: 40px;}.card {border-radius: var(--bradius-18);}.card .card-content {padding: 0 20px 30px 40px;border-radius: var(--bradius-18);}.card .card-content .card-title, .card-reveal .card-title {font-size: 24px;line-height: 1.1666666667;font-weight: 600;letter-spacing: .009em;font-family: var(--font-display);}.card .card-reveal {padding: 24% 40px 0px 25px;position: absolute;width: 100%;overflow-y: auto;left: 0;bottom: 0;height: 100%;z-index: 1;display: none;border-radius: var(--bradius-18);}.card .card-reveal .card-title {margin: 10px;}.card .card-reveal p {color: #cecece;margin: 10px;}.howto-headline {font-size: 32px;line-height: 1.1;font-weight: 700;letter-spacing: -0.00029em;color: #cecece;}.text-blue-gradient {color: #0099ff;background: -o-linear-gradient(135deg, rgb(0, 153, 255) 0%, rgb(0, 204, 255) 100%);background: linear-gradient(315deg, rgb(0, 153, 255) 0%, rgb(0, 204, 255) 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}.tile-button {z-index: 999;}.tile-button {-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: -webkit-transform .5s ease-in-out;transition: -webkit-transform .5s ease-in-out;-o-transition: transform .5s ease-in-out;transition: transform .5s ease-in-out;transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;}.tile-button.current {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}.section-header {padding-top: 66px;padding-bottom: 10px;}.section-heading {max-width: 768px;margin-bottom: 64px;}.typography-page-headline {margin-top: 0;margin-bottom: 0.5em;color: var(--typo-color);font-size: 36px;line-height: 1.25;font-weight: 600;}.text-xl {margin-top: 0;font-size: 1.125rem;line-height: 1.5;}.section-heading.align-centre {display: -webkit-box;display: -ms-flexbox;display: flex;margin-right: auto;margin-bottom: 48px;margin-left: auto;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;text-align: center;}.content.content-lg {max-width: 640px;}.counter-1 {counter-reset: ol-counter;}.counter-1 h4::before {content: counter(ol-counter,decimal);counter-increment: ol-counter;}.content.counter-1 h4, .content .counter-1 h4, .content .counter-2 h4 {position: relative;padding-left: 48px;}.counter-1 h4:before, .counter-2 h4:before {text-align: center;color: #fefefe;line-height: 1.2;background: #168bff;position: absolute;width: 35px;height: 35px;left: 0;border-radius: 50%;padding: 5px;font-size: 20px }.accordion-item, .accordion-button {background-color: transparent;}#accordionFlushFAQ h2 button, #accordionChangelog h2 button {color: #fff;border-color: rgba(255,255,255,0.08);}.accordion-item {color: #A1A1A6;border: 1px solid rgba(255,255,255,0.1) }.accordion-button::after, .btn-close {-webkit-filter: brightness(0) invert(1);filter: brightness(0) invert(1);}#accordionFlushFAQ h2 button {font-size: 20px;line-height: 1.19048;font-weight: 600;letter-spacing: .011em;}.accordion-button, .accordion-body {padding: 20px 0 }.accordion-button:not(.collapsed) {background-color: transparent;}.accordion-button:focus {border-color: transparent;-webkit-box-shadow: none;box-shadow: none;}.accordion-button:not(.collapsed) {color: #000;-webkit-box-shadow: none;box-shadow: none;}.devices-list-wrap {padding: 25px;height: 100%;}.feature-icon-round.feature-icon-supported {margin-bottom: 45px;}figure.model-find-image.lazy-background.visible {background-image: url(/img/ipad-settings.png);}figure.model-find-image {width: 100%;height: 121px;background-size: 320px 121px;background-repeat: no-repeat;margin-bottom: 0;background-position: center;}.check-model-text {padding: 4rem;max-width: 40rem;margin: 0;}.device-list h2 {font-size: 24px;}.feature-icon-img.ios-16.lazy-background.visible {background-image: url(/img/os-logo/ios-16-logo.png) }.feature-icon-img.ipados-16.lazy-background.visible {background-image: url(/img/os-logo/ipados-16-logo.png) }.feature-icon-img.watchos-9.lazy-background.visible {background-image: url(/img/os-logo/watchos-9-logo.png) }.feature-icon-img.macos-13.lazy-background.visible {background-image: url(/img/os-logo/macos-13-logo.png) }.feature-icon-img.tvos-16.lazy-background.visible {background-image: url(/img/os-logo/tvos-16-logo.png) }.community-text p {max-width: 520px;}.website-report {grid-auto-columns: 1fr;grid-column-gap: 32px;grid-row-gap: 0px;-ms-grid-columns: 1fr;grid-template-columns: 1fr;-ms-grid-rows: auto;grid-template-rows: auto;padding: 40px;max-width: 958px;}.website-report > *:nth-child(1) {-ms-grid-row: 1;-ms-grid-column: 1;}.website-report-text {max-width: 580px;}.feature-icon-img.icon-twitter.lazy-background.visible {background-image: url(/img/web-icon/twitter.jpg);}.feature-icon-img.icon-mail.lazy-background.visible {background-image: url(/img/web-icon/mail.jpg);}.avatars__item {background-color: #596376;border: 3px solid #ffffff;border-radius: 100%;color: #ffffff;display: block;height: 65px;width: 65px;line-height: 1;text-align: center;-webkit-transition: margin 0.1s ease-in-out;-o-transition: margin 0.1s ease-in-out;transition: margin 0.1s ease-in-out;overflow: hidden;margin-left: -10px;-webkit-box-shadow: 0px 5px 3px 1px rgb(16 24 40 / 5%);box-shadow: 0px 5px 3px 1px rgb(16 24 40 / 5%);}.avatars__item:first-child {z-index: 5;}.avatars__item:nth-child(2) {z-index: 4;}.avatars__item:nth-child(3) {z-index: 5;height: 80px;width: 80px;}.avatars__item:nth-child(4) {z-index: 6;height: 100px;width: 100px;}.avatars__item:nth-child(5) {z-index: 1;height: 80px;width: 80px;}.avatars__item:last-child {z-index: 0;}.avatars__item img {width: 100%;}.avatars:hover .avatars__item {margin-right: 10px;}aside {margin-bottom: 1.6em;border-radius: 15px;padding: .94118rem;border: 1px solid;border-left-width: 1px;}aside .label {font-size: 1rem;line-height: 1.52944;font-weight: 600;letter-spacing: -.021em;}aside.note {background-color: var(--aside-note-background);border-color: var(--aside-note-border);-webkit-box-shadow: 0 0 1px 0 var(--aside-note-border) inset,0 0 1px 0 var(--aside-note-border);box-shadow: 0 0 1px 0 var(--aside-note-border) inset,0 0 1px 0 var(--aside-note-border);}aside.note .label {color: var(--aside-note-border);}aside.important {background-color: var(--aside-important-background);border-color: var(--aside-important-border);-webkit-box-shadow: 0 0 1px 0 var(--aside-important-border) inset,0 0 1px 0 var(--aside-important-border);box-shadow: 0 0 1px 0 var(--aside-important-border) inset,0 0 1px 0 var(--aside-important-border);}aside.important .label {color: var(--aside-important-border);}#unenroll {top: 72px;z-index: 1;margin-bottom: 40px;padding: 6px 4px;border: 1px solid rgb(28,28,30);border-radius: 12px;background-color: #000;-webkit-backdrop-filter: saturate(150%) blur(24px);backdrop-filter: saturate(150%) blur(24px);width: -webkit-fit-content;width: -moz-fit-content;width: fit-content;margin: 0 auto;}.nav-item {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;border: 1px solid transparent;border-radius: 8px;background-color: transparent;-webkit-transition: border-color .2s,box-shadow .2s,background-color .2s;-webkit-transition: border-color .2s,background-color .2s,-webkit-box-shadow .2s;transition: border-color .2s,background-color .2s,-webkit-box-shadow .2s;-o-transition: border-color .2s,box-shadow .2s,background-color .2s;transition: border-color .2s,box-shadow .2s,background-color .2s;transition: border-color .2s,box-shadow .2s,background-color .2s,-webkit-box-shadow .2s;color: var(--typo-color);font-weight: 500;}.nav-tabs .nav-link.active {border: 1px solid rgb(58,58,60);background-color: rgb(44,44,46);-webkit-box-shadow: 0 1px 2px 0 rgba(16,24,40,.05);box-shadow: 0 1px 2px 0 rgba(16,24,40,.05);color: var(--typo-color);border-radius: 8px;}.nav-tabs .nav-link {color: rgb(133 133 134);border-radius: 8px;}.nav-tabs .nav-link:hover {border-color: rgb(72,72,74);}.counter-2 {counter-reset: counter-2;}.counter-2 h4:before {content: counter(counter-2,decimal);counter-increment: counter-2;}.footer {font-size: .875em;line-height: 1.33337;font-weight: 400;letter-spacing: -.01em;color: #98A2B3;}.footer-bottom-right {color: #98A2B3;}.footer-top-left h3 {margin-top: 0;font-size: .875rem;line-height: 1.5;letter-spacing: .02em;color: var(--typo-color);}.footer-link {-webkit-transition: color .2s;-o-transition: color .2s;transition: color .2s;color: #a1a1a6;font-size: .875em;font-weight: 500;text-decoration: none;white-space: nowrap;}.footer-top-right .socials a {color: #a1a1a6;}.footer-top-left ul li {margin-bottom: 0.8em;}.footer-link-icon {opacity: 0;-webkit-transform: translate3d(-4px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform: translate3d(-4px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);-webkit-transform-style: preserve-3d;transform-style: preserve-3d;}.footer-link:hover .footer-link-icon {opacity: 1;-webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);-webkit-transform-style: preserve-3d;transform-style: preserve-3d;}.feature-icon-img.icon-copyright {background-image: url(/img//web-icon/copyright.jpg);}@media (min-width: 768px) {h3 {font-size: 1.5rem;}h2 {font-size: 1.875em;}.navbar {min-height: 72px;}.section-hello {min-height: 640px;}.hello-hero {background-size: 768px 513px;background-position-y: 113px;}.artwork {max-height: 578px;}.typography-hero-headline {font-size: 56px;line-height: 1.08349;font-weight: 600;letter-spacing: -.003em;}.typography-intro {font-size: 34px;}.text-xl {font-size: 1.25em;}.section-header {padding-top: 80px;padding-bottom: 28px;}.typography-page-headline {font-size: 48px;line-height: 1.08349;font-weight: 600;letter-spacing: -.003em;}.howto-headline {font-size: 48px;letter-spacing: -0.00043em;}.card .card-reveal {padding-top: 28%;padding-right: 65px;}#accordionFlushFAQ h2 button {font-size: 21px;line-height: 1.19048;letter-spacing: .011em;}figure.model-find-image {height: 176px;background-size: 465px 176px;}}@media (min-width: 992px) {h3 {font-size: 1.875rem;}h2 {font-size: 2.25em;}.display-sm {font-size: 1.875rem }.artwork {max-height: 927px;}.hello-hero {background-image: url(/img/WWDC22/main/webp/wwdc22-dark-desktop.webp);background-size: 1000px 563px;height: 700px;background-position-y: 106px;}.no-webp .hello-hero {background-image: url(../img/WWDC22/main/wwdc22-dark-desktop.jpeg);}.section-hello {min-height: 696px;}.seclect-dl-subsection {max-width: 60%;}.donate-os-logo {top: 100px;}.section-header {padding-top: 100px;padding-bottom: 48px;}.profile-card:hover {-webkit-transform: translateY(-10px) scale(1.01);-ms-transform: translateY(-10px) scale(1.01);transform: translateY(-10px) scale(1.01);-webkit-transition-delay: .1s;-o-transition-delay: .1s;transition-delay: .1s;-webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 10px 10px -5px rgba(0, 0, 0, .04);}.profile-card:hover .image-card-wrapper {-webkit-transform: translateY(-10px);-ms-transform: translateY(-10px);transform: translateY(-10px);-webkit-filter: drop-shadow(15px 15px 18px rgba(0, 0, 0, .2));filter: drop-shadow(15px 15px 18px rgba(0, 0, 0, .2)) }.profile-card:hover h3 {-webkit-transform: translateY(-8px);-ms-transform: translateY(-8px);transform: translateY(-8px);}.profile-card:hover .profile-version {-webkit-transform: translateY(-5px);-ms-transform: translateY(-5px);transform: translateY(-5px) }.profile-card:hover p {-webkit-transform: translateY(-3px);-ms-transform: translateY(-3px);transform: translateY(-3px) }.profile-card * {-webkit-transition-property: -webkit-transform, -webkit-filter;-o-transition-property: transform, filter;transition-property: transform, filter, -webkit-transform, -webkit-filter;-webkit-transition: .8s cubic-bezier(.2, .8, .2, 1);-o-transition: .8s cubic-bezier(.2, .8, .2, 1);transition: .8s cubic-bezier(.2, .8, .2, 1) }.howto-headline {font-size: 64px;letter-spacing: -0.0009em;}figure.model-find-image {height: 216px;background-size: 570px 216px;}.website-report {-ms-grid-columns: 1fr auto;grid-template-columns: 1fr auto;}}@media (min-width: 1200px) {.hello-hero {background-size: 1200px 675px;height: 785px;}.section-hello {min-height: 790px;}.typography-hero-headline {font-size: 74px;line-height: 1.0625;font-weight: 600;letter-spacing: -.009em;}.donate-content {padding-bottom: 116px;}.popup-twitter, .popup_facebook {visibility: hidden;opacity: 0;position: absolute;left: -54px;top: -144px;width: 134px;height: 134px;padding: 14px;background-color: #fff;border-radius: 4px;-webkit-box-shadow: 0 4px 12px #d7def3;box-shadow: 0 4px 12px #d7def3;-webkit-transition: all 0.4s ease;-o-transition: all 0.4s ease;transition: all 0.4s ease;}.popup-twitter img, .popup_facebook img {position: absolute;width: 120px;height: 120px;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}.typography-page-headline {font-size: 64px;line-height: 1.0625;font-weight: 600;letter-spacing: -.009em;}#accordionFlushFAQ h2 button {font-size: 24px;line-height: 1.16667;letter-spacing: .009em;}.devices-list-wrap {padding: 50px }}@media (min-width: 1400px) {.donate-right {padding-top: 122px;}}</style> <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.7/dist/scrollreveal.min.js" integrity="sha256-6wqZcV6pu2M5lnagrcKTGQPToomZ+DaE4y4eVA9ix9E=" crossorigin="anonymous"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V89EMEN8E7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V89EMEN8E7');
+</script>
+
+<script type="text/javascript">
+  (function(){
+    var bsa_optimize=document.createElement('script');
+    bsa_optimize.type='text/javascript';
+    bsa_optimize.async=true;
+    bsa_optimize.src='https://cdn4.buysellads.net/pub/betaprofilesdev.js?'+(new Date()-new Date()%600000);
+    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa_optimize);
+  })();
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2316696388375522" crossorigin="anonymous"></script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-2316696388375522?ers=1" nonce="jyL2GsvNC_AUEoEqUPW3pA"></script><script nonce="jyL2GsvNC_AUEoEqUPW3pA">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script>(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},ba="function"==typeof Object.create?Object.create:function(a){var b=function(){};b.prototype=a;return new b},k;if("function"==typeof Object.setPrototypeOf)k=Object.setPrototypeOf;else{var m;a:{var ca={a:!0},n={};try{n.__proto__=ca;m=n.a;break a}catch(a){}m=!1}k=m?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}
+var p=k,q=function(a,b){a.prototype=ba(b.prototype);a.prototype.constructor=a;if(p)p(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.v=b.prototype},r=this||self,da=function(){},t=function(a){return a};var u;var w=function(a,b){this.g=b===v?a:""};w.prototype.toString=function(){return this.g+""};var v={},x=function(a){if(void 0===u){var b=null;var c=r.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:t,createScript:t,createScriptURL:t})}catch(d){r.console&&r.console.error(d.message)}u=b}else u=b}a=(b=u)?b.createScriptURL(a):a;return new w(a,v)};var A=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^Date.now()).toString(36)};var B={},C=null;var D="function"===typeof Uint8Array;function E(a,b,c){return"object"===typeof a?D&&!Array.isArray(a)&&a instanceof Uint8Array?c(a):F(a,b,c):b(a)}function F(a,b,c){if(Array.isArray(a)){for(var d=Array(a.length),e=0;e<a.length;e++){var f=a[e];null!=f&&(d[e]=E(f,b,c))}Array.isArray(a)&&a.s&&G(d);return d}d={};for(e in a)Object.prototype.hasOwnProperty.call(a,e)&&(f=a[e],null!=f&&(d[e]=E(f,b,c)));return d}
+function ea(a){return F(a,function(b){return"number"===typeof b?isFinite(b)?b:String(b):b},function(b){var c;void 0===c&&(c=0);if(!C){C={};for(var d="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),e=["+/=","+/","-_=","-_.","-_"],f=0;5>f;f++){var h=d.concat(e[f].split(""));B[f]=h;for(var g=0;g<h.length;g++){var l=h[g];void 0===C[l]&&(C[l]=g)}}}c=B[c];d=Array(Math.floor(b.length/3));e=c[64]||"";for(f=h=0;h<b.length-2;h+=3){var y=b[h],z=b[h+1];l=b[h+2];g=c[y>>2];y=c[(y&3)<<
+4|z>>4];z=c[(z&15)<<2|l>>6];l=c[l&63];d[f++]=""+g+y+z+l}g=0;l=e;switch(b.length-h){case 2:g=b[h+1],l=c[(g&15)<<2]||e;case 1:b=b[h],d[f]=""+c[b>>2]+c[(b&3)<<4|g>>4]+l+e}return d.join("")})}var fa={s:{value:!0,configurable:!0}},G=function(a){Array.isArray(a)&&!Object.isFrozen(a)&&Object.defineProperties(a,fa);return a};var H;var J=function(a,b,c){var d=H;H=null;a||(a=d);d=this.constructor.u;a||(a=d?[d]:[]);this.j=d?0:-1;this.h=null;this.g=a;a:{d=this.g.length;a=d-1;if(d&&(d=this.g[a],!(null===d||"object"!=typeof d||Array.isArray(d)||D&&d instanceof Uint8Array))){this.l=a-this.j;this.i=d;break a}void 0!==b&&-1<b?(this.l=Math.max(b,a+1-this.j),this.i=null):this.l=Number.MAX_VALUE}if(c)for(b=0;b<c.length;b++)a=c[b],a<this.l?(a+=this.j,(d=this.g[a])?G(d):this.g[a]=I):(d=this.l+this.j,this.g[d]||(this.i=this.g[d]={}),(d=this.i[a])?
+G(d):this.i[a]=I)},I=Object.freeze(G([])),K=function(a,b){if(-1===b)return null;if(b<a.l){b+=a.j;var c=a.g[b];return c!==I?c:a.g[b]=G([])}if(a.i)return c=a.i[b],c!==I?c:a.i[b]=G([])},M=function(a,b){var c=L;if(-1===b)return null;a.h||(a.h={});if(!a.h[b]){var d=K(a,b);d&&(a.h[b]=new c(d))}return a.h[b]};J.prototype.toJSON=function(){var a=N(this,!1);return ea(a)};
+var N=function(a,b){if(a.h)for(var c in a.h)if(Object.prototype.hasOwnProperty.call(a.h,c)){var d=a.h[c];if(Array.isArray(d))for(var e=0;e<d.length;e++)d[e]&&N(d[e],b);else d&&N(d,b)}return a.g},O=function(a,b){H=b=b?JSON.parse(b):null;a=new a(b);H=null;return a};J.prototype.toString=function(){return N(this,!1).toString()};var P=function(a){J.call(this,a)};q(P,J);function ha(a){var b,c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document,d=null===(b=c.querySelector)||void 0===b?void 0:b.call(c,"script[nonce]");(b=d?d.nonce||d.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",b)};var Q=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},R=function(a){this.g=a||r.document||document};R.prototype.appendChild=function(a,b){a.appendChild(b)};var S=function(a,b,c,d,e,f){try{var h=a.g,g=Q(a.g,"SCRIPT");g.async=!0;g.src=b instanceof w&&b.constructor===w?b.g:"type_error:TrustedResourceUrl";ha(g);h.head.appendChild(g);g.addEventListener("load",function(){e();d&&h.head.removeChild(g)});g.addEventListener("error",function(){0<c?S(a,b,c-1,d,e,f):(d&&h.head.removeChild(g),f())})}catch(l){f()}};var ia=r.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ja=r.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),ka=r.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),la=function(a,b,c){this.h=a;this.j=new R(this.h);this.g=null;this.i=[];this.l=!1;this.o=b;this.m=c},V=function(a){if(a.h.body&&!a.l){var b=
+function(){T(a);r.setTimeout(function(){return U(a,3)},50)};S(a.j,a.o,2,!0,function(){r[a.m]||b()},b);a.l=!0}},T=function(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.h.body.appendChild(d);a.i.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style["background-color"]=ma(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=ma(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=X(a);c.style.width=W(80,85).toString()+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=Q(a.j.g,"IMG");d.className=A();d.src=ia;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=X(a),f=X(a);f.style["font-weight"]="bold";f.textContent=ja;var h=X(a);h.textContent=ka;Y(a,
+e,f);Y(a,e,h);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.h.body.appendChild(a.g);b=W(1,5);for(c=0;c<b;c++)d=X(a),a.h.body.appendChild(d),a.i.push(d)},Y=function(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)},W=function(a,b){return Math.floor(a+Math.random()*(b-a))},ma=function(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,
+255)).toString()+")"},X=function(a){a=Q(a.j.g,"DIV");a.className=A();return a},U=function(a,b){0>=b||null!=a.g&&0!=a.g.offsetHeight&&0!=a.g.offsetWidth||(na(a),T(a),r.setTimeout(function(){return U(a,b-1)},50))},na=function(a){var b=a.i;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:aa(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.i=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};var pa=function(a,b,c,d,e){var f=oa(c),h=function(l){l.appendChild(f);r.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},g=function(l){document.body?h(document.body):0<l?r.setTimeout(function(){g(l-1)},e):b()};g(3)},oa=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var L=function(a){J.call(this,a)};q(L,J);var qa=function(a){J.call(this,a)};q(qa,J);var ra=function(a,b){this.l=a;this.m=new R(a.document);this.g=b;this.i=K(this.g,1);b=M(this.g,2);this.o=x(K(b,4)||"");this.h=!1;b=M(this.g,13);b=x(K(b,4)||"");this.j=new la(a.document,b,K(this.g,12))};ra.prototype.start=function(){sa(this)};
+var sa=function(a){ta(a);S(a.m,a.o,3,!1,function(){a:{var b=a.i;var c=r.btoa(b);if(c=r[c]){try{var d=O(P,r.atob(c))}catch(e){b=!1;break a}b=b===K(d,1)}else b=!1}b?Z(a,K(a.g,14)):(Z(a,K(a.g,8)),V(a.j))},function(){pa(function(){Z(a,K(a.g,7));V(a.j)},function(){return Z(a,K(a.g,6))},K(a.g,9),K(a.g,10),K(a.g,11))})},Z=function(a,b){a.h||(a.h=!0,a=new a.l.XMLHttpRequest,a.open("GET",b,!0),a.send())},ta=function(a){var b=r.btoa(a.i);a.l[b]&&Z(a,K(a.g,5))};(function(a,b){r[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];r[a]=da;b.apply(null,d)}})("__h82AlnkH6D91__",function(a){"function"===typeof window.atob&&(new ra(window,O(qa,window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItMjMxNjY5NjM4ODM3NTUyMiIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi0yMzE2Njk2Mzg4Mzc1NTIyIl0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hVRXlpaTUwN0w4R1VCTklUNnVYb2ExNVpjQ3g0UjF1bDUwb3FFNTlXdHNCRDA1ZlJWN1g3aGxGQXJxTFBPZE8xdWQ0UF92Q0JDU2ozeE96YmVmbV9mQ0dBXHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFhVWmJHYXNaelJvZWNvTkhPVGpVdkYyUF84VHQtVVJ6OC1JMDFQQkVnbi14T3MwV1pwRVhLQWo2dDh1YTFtQzZIdURCSkFSTklZdUVnMk03QUJPblFFc2dcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFdsV1JIc05uS1FQMFVvY056Z19VWWQ0TkdTc3BSeGE4TmxRazFydHJrdGlTNTk2NjZmVEI0TEZmdEJlQmhWbkJvemtleGJKRUhRakZsNjFKdXJOWklYTUFcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFZyNnJueE9yMUJYVkhZRllIQ0ZWaW1iVDJtTHFkTmNiMmZqR1JpeXpfNXkwV1cxWUE0TjNLX1FMaVhkQ3dRNUhCU1RRWl95MDdfTWFtTjFFWkp4MmV2QUFcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUSXpNVFkyT1RZek9EZ3pOelUxTWpJXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi0yMzE2Njk2Mzg4Mzc1NTIyLmpzP3VzcXBcdTAwM2RDQWMiXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4WHB5QXJEczU2MlluMjEtSkZNMUdudXBIN1NVMm9DMnVsN2N1SER5Ri1vTW9GMHd5a0FpamdScFc3NXRycGZqdXpDel9yeXZ5LWpzZHRGRlF1RmJlaHBsUVx1MDAzZFx1MDAzZCJd");</script>
+</head>
+<body>
+
+<header>
+<nav class="navbar col-12 navbar-expand-md" style="margin-top: 0px; transition: margin-top 1000ms ease-in-out 0s;">
+<div class="container">
+<a class="navbar-brand me-md-4 me-lg-5" href="/"><img src="/img/beta-profiles-logo.svg" width="155" height="29" alt="beta profiles logo"></a>
+<button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-three-dots" viewbox="0 0 16 16">
+<path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+</svg>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header px-4 pb-0">
+<a class="navbar-brand" href="/">
+<img src="/img/beta-profiles-logo.svg" width="155" height="29" alt="beta profiles logo">
+</a>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body p-4 pt-0 p-md-0  ">
+<hr class="d-lg-none">
+<ul class="navbar-nav me-auto mb-2 mb-md-0 flex-row flex-md-nowrap flex-wrap">
+<li class="nav-item col-6 col-md-auto pe-0 pe-md-3 pe-lg-4">
+<a class="nav-link " href="/faqs/">FAQs</a>
+</li>
+<li class="nav-item col-6 col-md-auto pe-0 pe-md-3 pe-lg-4">
+<a class="nav-link " href="/enroll/">Enroll</a>
+</li>
+<li class="nav-item col-6 col-md-auto pe-0 pe-md-3 pe-lg-4">
+<a class="nav-link " href="/unenroll/">Unenroll</a>
+</li>
+</ul>
+<a href="#" class="btns btn-secondary-grey linksmart d-flex align-items-center me-0 me-md-4 justify-content-start justify-content-md-center" data-bs-toggle="modal" data-bs-target="#whatsNewModal">
+<div class="btn-dl-profile-icon me-2 d-flex justify-content-center align-items-center m-0 p-0">
+<span class="durum circle"></span>
+</div>
+<div>What's new</div>
+</a>
+</div>
+</div>
+</div>
+</nav>
+
+<div class="modal fade" id="whatsNewModal" tabindex="-1" aria-labelledby="whatsNewModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-scrollable">
+<div class="modal-content">
+<div class="modal-header border-bottom-0 pb-0">
+<h4 class="modal-title mt-0" id="whatsNewModalLabel">What's new?</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/download/images/ios-16-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>iOS 16.5 RC 2 (20F66)</h3><div class="text-wrap"><p class="lighter">May 15, 2023</p><p><a href="https://developer.apple.com/go/?id=ios-16.5-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div><div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/download/images/ipados-16-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>iPadOS 16.5 RC 2 (20F66)</h3><div class="text-wrap"><p class="lighter">May 15, 2023</p><p><a href="https://developer.apple.com/go/?id=iPadOS-16.5-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div><div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/download/images/macos-13-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>macOS 13.4 RC 2 (22F63)</h3><div class="text-wrap"><p class="lighter">May 11, 2023</p><p><a href="https://developer.apple.com/go/?id=macos-13.4-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div><div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/news/releases/images/watchos-7-thumbnail-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>watchOS 9.5 RC (20T562)</h3><div class="text-wrap"><p class="lighter">May 9, 2023</p><p><a href="https://developer.apple.com/go/?id=watchos-9.5-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div><div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/news/releases/images/tvos-thumbnail-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>tvOS 16.5 RC (20L562)</h3><div class="text-wrap"><p class="lighter">May 9, 2023</p><p><a href="https://developer.apple.com/go/?id=tvos-16.5-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div><div class="whatsnew-item d-flex flex-row align-items-center divider-bottom"><div class="left-col me-4"><img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-128x128_2x.png" alt loading="lazy"></div><div class="right-col"><div class="right-col-wrap"><h3>Xcode 14.3 (14E222b)</h3><div class="text-wrap"><p class="lighter">March 30, 2023</p><p><a href="https://developer.apple.com/go/?id=xcode-14.3-sdk-rn" target="_blank" rel="nofollow noopener">View release notes →</a></p></div></div></div></div>
+
+</div>
+</div>
+</div>
+</div>
+</header><main>
+<section class="section-hello overflow-hidden">
+
+<div class="section-content">
+<div class="row">
+<div class="text-center">
+<h1 class="typography-hero-headline">Download <br class="d-block d-sm-none">Beta Profiles </h1>
+<p class="typography-intro">Get what's next, now.</p>
+<div class="profile-button hero-buttons py-4 d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="/supported-devices/" class="btns btn-secondary-grey linksmart">Compatibility List</a>
+<a href="/faqs/" class="btns btn-secondary-grey linksmart">FAQs</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section-content">
+<div class="row">
+<div class="quick-select">
+<ul class="list-unstyled d-flex flex-nowrap align-items-stretch justify-content-center mb-5">
+<li>
+<a class="d-inline-block" href="#ios-16">
+<figure class="mx-auto select-icon ios"></figure>iOS 16
+</a>
+</li>
+<li class="d-none d-md-block">
+<a class="d-inline-block" href="#ipados-16">
+<figure class="mx-auto select-icon ipados"></figure>iPadOS 16
+</a>
+</li>
+<li class>
+<a class="d-inline-block" href="#watchos-9">
+<figure class="mx-auto select-icon watchos"></figure>watchOS 9
+</a>
+</li>
+<li class>
+<a class="d-inline-block" href="#tvos-16">
+<figure class="mx-auto select-icon tvos"></figure>tvOS 16
+</a>
+</li>
+<li class="d-none d-lg-block">
+<a class="d-inline-block" href="#macos-13">
+<figure class="mx-auto select-icon macos"></figure>macOS 13
+</a>
+</li>
+<li class>
+<a class="d-inline-block" href="#block-ota">
+<figure class="mx-auto select-icon block"></figure>Block OTA
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="parallel-section">
+<div class="position-relative artwork">
+<div class="layer absolute sr-base">
+<div class="is-base ">
+<picture class="image_wrap">
+<source type="image/webp" srcset="/img/hero/base.webp 1x, /img/hero/base@2x.webp 2x">
+<img src="/img/hero/base.png" srcset="/img/hero/base@2x.png 2x" alt="beta profile" width="1837" height="927">
+</picture>
+</div>
+</div>
+<div class="layer absolute sr-middle">
+<div class="is-middle">
+<picture class="image_wrap">
+<source type="image/webp" srcset="/img/hero/middle.webp 1x, /img/hero/middle@2x.webp 2x">
+<img src="/img/hero/middle.png" srcset="/img/hero/middle@2x.png 2x" alt="beta profile" width="1837" height="927">
+</picture>
+</div>
+</div>
+<div class="layer absolute sr-top">
+<div class="is-top">
+<picture class="image_wrap">
+<source media="(max-width: 767px)" srcset="/img/hero/mobile/top-mobile.webp 1x, /img/hero/mobile/top-mobile@2x.webp 2x">
+<source type="image/webp" srcset="/img/hero/top.webp 1x, /img/hero/top@2x.webp 2x">
+<img src="/img/hero/top.png" srcset="/img/hero/top@2x.png 2x" fetchpriority="high" alt="beta profiles hero" width="1837" height="927">
+</picture>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="section-profiles">
+<div class="container">
+<div class="text-center mb-5">
+
+
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2316696388375522" data-ad-slot="3393337252" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <style>
+  .beta-updates-wrap img {
+    width: 300px;
+  }
+  .beta-updates-wrap span {
+      color: darkorange;
+  }
+  @media (min-width: 992px) {
+    .beta-updates-wrap img {
+      width: 430px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .beta-updates-wrap img {
+      width: 530px;
+    }
+  }
+</style>
+<div class="row">
+<div class="col-12 col-lg-6">
+<div class="profile-card bg-black beta-updates d-flex flex-column p-4 p-md-5 align-items-center mb-5">
+<div class="beta-updates-wrap px-xl-5 mb-4 mb-md-0">
+<span><small>iOS 17 is coming</small></span>
+<h2 class="mt-2">WWDC 2023 confirmed for June 5 to June 9</h2>
+<a class="fs-6" href="#" data-bs-toggle="modal" data-bs-target="#wwdc23">Learn more →</a>
+</div>
+<div class="beta-updates-wrap ">
+<picture>
+<source media="(max-width: 767px)" srcset="/img/WWDC23/wwdc23-announcement@1x.jpg 1x, /img/WWDC23/wwdc23-announcement@2x.jpg 2x">
+<img src="/img/WWDC23/wwdc23-announcement@1x.jpg" srcset="/img/WWDC23/wwdc23-announcement@2x.jpg 2x" fetchpriority="high" alt="WWDC23 announcement" width="580">
+</picture>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-6">
+<div class="profile-card bg-black beta-updates d-flex flex-column p-4 p-md-5 align-items-center mb-5">
+<div class="beta-updates-wrap px-xl-5 mb-4 mb-md-0">
+<span><small>From iOS 17 and iPadOS 17</small></span>
+<h2 class="mt-2">Get ready for future beta software updates.</h2>
+<a class="fs-6" href="https://betaprofiles.dev/beta-updates/?utm_source=homepage&utm_medium=learn-more">Learn more →</a>
+</div>
+<div class="beta-updates-wrap ">
+<picture>
+<source media="(max-width: 767px)" srcset="/img/enroll/apple-beta-software-program@1x.png 1x, /img/enroll/apple-beta-software-program@2x.png 2x">
+<img src="/img/enroll/apple-beta-software-program@1x.png" srcset="/img/enroll/apple-beta-software-program@2x.png 2x" fetchpriority="high" alt="apple beta software program" width="580">
+</picture>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="container scroll-cards">
+
+<div class="cards">
+<h2 class="public-headline text-center text-primary-700 fw-semibold mb-2">Public Beta</h2>
+<div class="mx-auto text-sm-start text-md-center pb-4 seclect-dl-subsection">Below are the public profiles, these profiles are usually released later than Developer Beta, so it will be stable and less buggy. If you've never signed up for Apple's Public Beta Software Program before, sign up first at <a href="https://beta.apple.com/sp/betaprogram/welcome" target="_blank" rel="nofollow noopener">beta.apple.com</a>.</div>
+<div class="mx-auto text-sm-start text-md-center pb-4 seclect-dl-subsection"><a href="/switch/">Learn how to switch from Developer beta to Public beta updates →</a></div>
+<aside aria-label="important" class="important">
+<p class="label mb-2">Important Note</p>
+<p>If you are installing a beta profile that automatically deletes itself after installation, you are not alone, as Apple is taking actions to completely drop beta profiles.</p>
+<p class="mb-0">Currently, you can still use IPSW files to update to the Developer beta, which can be easily found with the keyword <em>"ipsw beta"</em>. Just download the .ipsw file for your device and update using iTunes.</p>
+</aside>
+<div class="row">
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-ios">
+<a class="anchor" id="ios-16"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">iOS 16 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">iOS Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>iOS 16.5</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Get beta updates on your iPhone automatically.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-iOS16Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-ipados">
+<a class="anchor" id="ipados-16"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">iPadOS 16 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">iPadOS Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>iPadOS 16.5</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Get beta updates on your iPad automatically.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-iPadOS16Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-watchos">
+<a class="anchor" id="watchos-9"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">watchOS 9 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">watchOS Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>watchOS 9.5</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Get beta updates for Apple Watch automatically on iPhone.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-watchOS9Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+
+<div class="mt-2 mb-4">
+</div>
+
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-macos">
+<a class="anchor" id="macos-13"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">macOS 13 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">macOS Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>macOS 13.4</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Configure your Mac to receive beta software updates.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-macOS13Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div id="macos13PBButtonText">Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-tvos">
+<a class="anchor" id="tvos-16"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">tvOS 16 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">tvOS Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>tvOS 16.5</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Get beta updates on your Apple TV automatically.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-tvOS16Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 public-homepod">
+<h2 class="profile-title mt-5 mb-4 d-none">HomePod 16 Public Download</h2>
+<div class="profile-card position-relative public-beta ">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">HomePod Public Beta</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>HomePod 16.5</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">beta 4</div>
+</div>
+<p class="mx-auto">Configure your HomePod mini to receive beta software updates.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-HomePod16Public">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-xl-4 text-center mb-4 tvos">
+<a class="anchor" id="block-ota"></a>
+<h2 class="profile-title mt-5 mb-4 d-none">Block OTA Profile</h2>
+<div class="profile-card position-relative block-ota">
+<div class="content-wrapper px-4 py-5">
+<div class="image-card-wrapper">
+<figure class="image-card lazy-background"></figure>
+</div>
+<h3 class="fs-2 fw-semibold">Block OTA Profile</h3>
+<div class="profile-version rounded d-inline-flex my-3 overflow-hidden">
+<div class="version py-1 px-2">
+<strong>tvOS 16</strong>
+</div>
+<div class="version-number py-1 px-2 text-nowrap">Block OTA</div>
+</div>
+<p class="mx-auto">Block updates and notification for new iOS, iPadOS upgrades.</p>
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center">
+<a href="#" class="button profile-btn-dl linksmart rounded-pill d-flex justify-content-center align-items-center" id="dl-block-ota">
+<div class="btn-dl-profile-icon me-2">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewbox="0 0 16 16">
+<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+</svg>
+</div>
+<div>Install Profile</div>
+</a>
+</div>
+</div>
+<div class="image-wrapper overflow-hidden">
+<figure class="image-device lazy-background"></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="container">
+<div class="my-5" align="center">
+<ins class="adsbygoogle" style="display:block" data-full-width-responsive="true" data-ad-client="ca-pub-2316696388375522" data-ad-slot="7122066370" data-ad-format="auto"></ins>
+<script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+</div>
+</div> <section class="section-howto py-5 background-gray-50">
+<div class="container sr-howto">
+<h2 class="howto-headline text-center mb-5 ">How to use a <div class="text-blue-gradient d-inline"><br class="d-block d-sm-none">Beta Profile</div>
+</h2>
+<div class="row howto">
+<div class="col-lg-4 mb-4">
+<div class="card border-0 position-relative bg-black">
+<div class="card-image overflow-hidden">
+<div class="wrap">
+<picture>
+<source srcset="/img/howto/backup.webp" type="image/webp">
+<source srcset="/img/howto/backup.jpg" type="image/jpeg">
+<img class="img-fluid" src="/img/howto/backup.jpg" alt="backup iphone icloud" loading="lazy">
+</picture>
+
+</div>
+
+</div>
+<div class="card-content d-flex align-items-center justify-content-between bg-black text-white">
+<span class="card-title mb-0 ">1. Archive a backup</span>
+<button type="button" id="show" data-target="show1" class="tile-button btn border-0 float-end">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#FFF" class="bi bi-plus-circle-fill" viewbox="0 0 16 16">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+</svg>
+</button>
+</div>
+
+<div class="card-reveal bg-black show1">
+<h3 class="card-title text-white">1. Archive a backup</h3>
+<p>Always back up your data and files before installing beta versions. For iPhone and iPad, we recommend that you do a backup using Finder.</p>
+<p>
+<a href="https://support.apple.com/guide/iphone/back-up-iphone-iph3ecf67d29/ios" target="_blank" rel="nofollow noopener">Learn how to backup your iPhone and iPad →</a>
+</p>
+<p>
+<a href="https://support.apple.com/mac-backup" target="_blank" rel="nofollow noopener">Learn how to backup your Mac →</a>
+</p>
+</div>
+
+</div>
+</div>
+<div class="col-lg-4 mb-4">
+<div class="card border-0 position-relative bg-black">
+<div class="card-image overflow-hidden">
+<div class="wrap">
+<picture>
+<source srcset="/img/howto/beta-profiles.webp" type="image/webp">
+<source srcset="/img/howto/beta-profiles.jpg" type="image/jpeg">
+<img class="img-fluid" src="/img/howto/beta-profiles.jpg" alt="beta profiles" loading="lazy">
+</picture>
+
+</div>
+
+</div>
+<div class="card-content d-flex align-items-center justify-content-between bg-black text-white">
+<span class="card-title mb-0">2. Install profile</span>
+<button type="button" id="show2" data-target="show2" class="tile-button btn border-0 float-end">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#FFF" class="bi bi-plus-circle-fill" viewbox="0 0 16 16">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+</svg>
+</button>
+</div>
+
+<div class="card-reveal bg-black show2">
+<h3 class="card-title text-white">2. Install profile</h3>
+<p>First, check if your device supports updating to the version you want at the <a href="/supported-devices/">Compatibility List</a> page. </p>
+<p>On supported devices, go to BetaProfiles.dev to download the configuration profile. Open Settings, tap the profile and follow the onscreen instructions to allow installation.</p>
+</div>
+
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card border-0 position-relative bg-black">
+<div class="card-image overflow-hidden">
+<div class="wrap">
+<picture>
+<source srcset="/img/howto/update.webp" type="image/webp">
+<source srcset="/img/howto/update.jpg" type="image/jpeg">
+<img class="img-fluid" src="/img/howto/update.jpg" alt="update ios 16 developer beta" loading="lazy">
+</picture>
+
+</div>
+
+</div>
+<div class="card-content d-flex align-items-center justify-content-between bg-black text-white">
+<span class="card-title mb-0">3. Update your device</span>
+<button type="button" id="show3" data-target="show3" class="tile-button btn border-0 float-end">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#FFF" class="bi bi-plus-circle-fill" viewbox="0 0 16 16">
+<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+</svg>
+</button>
+</div>
+
+<div class="card-reveal bg-black show3">
+<h3 class="card-title text-white">3. Update your device</h3>
+<p>Tap Settings > General > Software Update to install any available beta software.</p>
+<p>To stop receiving beta updates, see <a href="/unenroll/">how to delete a beta profile</a>. </p>
+<p>To downgrade to an earlier version, check the <a href="/faqs/">FAQs page</a>. </p>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="modal fade" id="dlModal" tabindex="-1" role="dialog" aria-labelledby="dlModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="feature-icon-round feature-icon">
+<div class="feature-icon-img warning-profiles-install"></div>
+</div>
+<div class="modal-header border-bottom-0">
+<h4 class="modal-title mt-0" id="dlModalLabel"></h4>
+</div>
+<div class="modal-body"></div>
+<div class="modal-buttons">
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center pb-4">
+<div class="btns btn-secondary-grey linksmart d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
+<div>Cancel</div>
+</div>
+<a href="#" class="btns btn-danger linksmart d-flex justify-content-center align-items-center" id="dlBtn">
+<div>Install</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="wwdc23" tabindex="-1" aria-labelledby="wwdc23lLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header border-bottom-0">
+<h4 class="modal-title mt-0" id="wwdc23Label">About WWDC23</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Apple has recently announced that the <a href="https://developer.apple.com/wwdc23/" target="_blank" rel="nofollow noopener">Worldwide Developers Conference 2023</a> (WWDC23) will take place from Monday, June 5th to Friday, June 9th. Like in previous years, this will be an online event.</p>
+<p>Apple will be hosting a major event on Monday, June 5th to introduce iOS 17, iPadOS 17, tvOS 17, watchOS 10, and macOS 14, with the possibility of new hardware announcements.</p>
+<p>Join our Telegram group at: <a href="https://t.me/betaprofilesdev" target="_blank" rel="nofollow noopener">@BetaProfilesDev</a></p>
+<p class="mb-0">Subscribe to <a href="https://t.me/betaprofilesupdate" target="_blank" rel="nofollow noopener">BetaProfiles.dev's channel</a> on Telegram to receive notifications about new updates.</p>
+</div>
+<div class="modal-buttons">
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center pb-4">
+<div class="btns btn-secondary-grey linksmart d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
+<div>Close</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="dl-AirPodsBeta" tabindex="-1" aria-labelledby="AirPodsBetaModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="feature-icon-round feature-icon">
+<div class="feature-icon-img warning-profiles-install"></div>
+</div>
+<div class="modal-header border-bottom-0">
+<h4 class="modal-title mt-0" id="AirPodsBetaModallLabel">AirPods Beta firmware details</h4>
+</div>
+<div class="modal-body">
+<p>AirPods beta firmware for Apple Developer Program members enables development of features on iOS and macOS for AirPods. This program also enables debugging of issues by Apple with on-in log collection. This release includes improvements to Automatic Switching and various bug and stability fixes.</p>
+<p>Apple doesn't release any beta profiles for AirPods at this time, you need to activate it through Xcode instead.</p>
+<p>
+<a href="/airpods/AirPodsBetaInstallInstructions.pdf">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewbox="0 0 16 16">
+<path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z" />
+<path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+</svg> AirPods Beta Install Instructions from Apple.pdf </a>
+</p>
+</div>
+<div class="modal-buttons">
+<div class="profile-button d-flex flex-nowrap align-items-stretch justify-content-center pb-4">
+<div class="btns btn-secondary-grey linksmart d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
+<div>Cancel</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    ScrollReveal().reveal(".typography-hero-headline", {
+        duration: 1500,
+        origin: "top",
+        scale: 1.05,
+        distance: "24px"
+      }),
+      ScrollReveal().reveal(".typography-intro", {
+        duration: 800,
+        distance: "64px",
+        origin: "bottom",
+        delay: 1e3
+      }),
+      ScrollReveal().reveal(".hero-buttons", {
+        delay: 1800,
+        distance: "0px",
+        scale: 1.05,
+        origin: "bottom",
+        opcity: .1
+      }),
+      ScrollReveal().reveal(".sr-top", {
+        duration: 1000,
+        scale: .9,
+        opcity: .8,
+        cleanup: true
+      }),
+      ScrollReveal().reveal(".sr-middle", {
+        duration: 1300,
+        scale: .2,
+        opcity: .8,
+        delay: 500,
+        cleanup: true
+      }),
+      ScrollReveal().reveal(".sr-base", {
+        duration: 1800,
+        scale: .2,
+        opcity: .8,
+        cleanup: true
+      }),
+      ScrollReveal().reveal(".quick-select", {
+        delay: 2400,
+        distance: "0px",
+        scale: 1.05,
+        origin: "bottom",
+        opcity: .1
+      }),
+      ScrollReveal().reveal(".sr-howto", {
+        duration: 1000,
+        origin: "bottom",
+        distance: "90px",
+        opcity: .2
+      }),
+      ScrollReveal().reveal(".scroll-cards", {
+        duration: 2000,
+        origin: "bottom",
+        distance: "90px",
+        opcity: .2
+      });
+    // Clean reveal
+    ScrollReveal().reveal('.sr-top', {
+        afterReveal: function(el) {
+          ScrollReveal().clean(el);
+        }
+      }),
+      ScrollReveal().reveal('.sr-middle', {
+        afterReveal: function(el) {
+          ScrollReveal().clean(el);
+        }
+      }),
+      ScrollReveal().reveal('.sr-base', {
+        afterReveal: function(el) {
+          ScrollReveal().clean(el);
+        }
+      });
+  </script>
+</main>
+
+<footer class="footer background-gray-50 mt-5">
+<div class="container py-4 py-md-5">
+<div class="row footer-top">
+<div class="col-md-6 footer-top-right">
+<div class="row">
+<div class="col-12  pt-2 pb-5 pt-md-0 pb-md-0 ">
+<a href="/"><img class="py-2" src="/img/beta-profiles-logo.svg" alt="beta profiles logo"></a>
+<p class="my-2 ">A free website to download beta profiles for iOS, iPadOS, watchOS, tvOS and macOS.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 ps-md-5 footer-top-left">
+<div class="row">
+<div class="col-6">
+<h3>Explore</h3>
+<div class="row">
+<ul class="list-unstyled">
+<li><a href="/faqs/" class="footer-link">FAQs</a></li>
+<li><a href="/supported-devices/" class="footer-link">Supported Devices</a></li>
+<li><a href="/contact/" class="footer-link">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="col-6">
+<h3>Learn</h3>
+<div class="row">
+<ul class="list-unstyled">
+<li><a href="/feedback/" class="footer-link">Feedback</a></li>
+<li><a href="/unenroll/" class="footer-link">Delete Profile</a></li>
+<li><a href="/restore/" class="footer-link">Restore</a></li>
+<li><a href="/switch/" class="footer-link">Switch Dev → Public</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<div class="row footer-bottom">
+<div class="col-12 pt-3 d-flex flex-column align-items-center flex-md-row justify-content-md-between">
+<div class="text-center text-md-start footer-bottom-right">
+© 2023 — Beta Profiles.<br>
+<span><small>This website is not affiliated with Apple Inc.</small></span>
+</div>
+<div class="text-center text-md-end footer-bottom-left">
+<a class="footer-link pe-2" href="#" data-bs-toggle="modal" data-bs-target="#legalModal">Legal Info</a> •
+<a class="footer-link ps-2" href="/privacy/">Privacy Policy</a><br>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<div class="modal fade" id="legalModal" tabindex="-1" role="dialog" aria-labelledby="legalModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content border-radius-10">
+<div class="feature-icon-round feature-icon">
+<div class="feature-icon-img icon-copyright"></div>
+</div>
+<div class="modal-header border-bottom-0 pb-0">
+<h4 class="modal-title mt-0" id="legalModalLabel">Legal Information</h4>
+</div>
+<div class="modal-body">
+<p>The creator of this website is not associated with Apple Inc. in any way.</p>
+<p>iOS is a trademark or registered trademark of Cisco and is used under license by Apple Inc.</p>
+<p>macOS and tvOS are trademarks of Apple Inc.</p>
+<p>The Apple logo, watchOS, Apple Watch, and Apple TV are registered trademarks of Apple Inc.</p>
+</div>
+<div class="modal-buttons">
+<div class="profile-button  d-flex flex-nowrap align-items-stretch justify-content-center pb-4">
+<div class="btns btn-secondary-grey linksmart d-flex justify-content-center align-items-center" data-bs-dismiss="modal">
+<div>Close</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script type="application/ld+json"> { "@context": "http://schema.org", "@id": "#organization", "@type": "Organization", "name": "Beta Profiles", "description": "Download latest beta profiles for iOS, iPadOS, macOS, watchOS and tvOS.", "url": "https://betaprofiles.dev/", "logo": "https://betaprofiles.dev/img/app-icon-180.png", "sameAs": [ "https://www.facebook.com/BetaProfiles", "https://twitter.com/BetaProfiles" ] } </script>
+<script type="application/ld+json"> { "@context": "http://schema.org", "@id": "#webpage", "@type": "WebPage", "url": "https://betaprofiles.dev/", "name": "Beta Profiles" } </script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/fontfaceobserver@2.3.0/fontfaceobserver.js" integrity="sha256-ueztzPNuMdPXPit6RLzws7N/TZxtysLFK8XRR2yeu94=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js" integrity="sha256-GBIPMHSjsTxzIyJuhuk7wWz8z2oKeev8qW/c3IgOeVQ=" crossorigin="anonymous"></script>
+<script src="/js/main.js?v=5.0.6"></script>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWGF8J4"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script type="text/javascript">
+var infolinks_pid = 3363670;
+var infolinks_wsid = 3;
+</script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7c7ec284fa590607',m:'s9bixv7tzNUWznPdiMmxfcTXMpIl_Ar5rSXDFZGqXLM-1684189139-0-AfopbxVt+5kMMYfESRJ7WOxxlAFXeXKimXNYjLn/Eglc',u:'/cdn-cgi/challenge-platform/h/g'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
